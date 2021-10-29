@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Esercizio1:war">
+    <output-path>$PROJECT_DIR$/Esercizio1/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Esercizio1</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Esercizio1-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Esercizio1:war exploded" />
+    </root>
+  </artifact>
+</component>
