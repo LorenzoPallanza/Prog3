@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sample.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="37.0" layoutY="14.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="140" minHeight="16" minWidth="69" />
+        <TextField fx:id="inserimento" layoutX="115.0" layoutY="69.0" prefHeight="31.0" prefWidth="50.0" />
+        <TextField fx:id="visualizza" layoutX="115.0" layoutY="105.0" prefHeight="31.0" prefWidth="50.0" />
+    </children>
+</AnchorPane>
